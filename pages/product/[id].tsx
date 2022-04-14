@@ -3,7 +3,6 @@ import {useState, useEffect} from 'react'
 import {NextPage} from 'next'
 import {NextAppPageProps} from '../../types/app'
 import Layout from '../../components/Layout'
-import Carousel from "../../components/Carousel/Carousel";
 import Card from "../../components/Card/card";
 import FourItemCard from "../../components/Card/FourItemCard";
 import Head from 'next/head'
@@ -109,7 +108,6 @@ const ProductPage: NextPage<NextAppPageProps> = ({}) => {
                     discountPrice={ProductData.discountPrice}
                 />
 
-                <Carousel playTime={3000}/>
 
 
                 <section className="container mx-auto px-0 md:px-4 py-4">

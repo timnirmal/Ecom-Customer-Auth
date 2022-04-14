@@ -29,7 +29,6 @@ const IndexPage: NextPage<NextAppPageProps> = ({}) => {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault()
         console.log('Submitting form', values)
-
         isSignIn ? signIn(values) : signUp(values)
     }
 
